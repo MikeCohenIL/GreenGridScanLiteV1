@@ -1,0 +1,9 @@
+{
+  "name": "GreenGridScanLiteV1",
+  "names": ["blue", "orange", "other", "purple"],
+  "imgsz": 224,
+  "base_model": "yolo26n-cls (Ultralytics YOLO26 nano, classification)",
+  "format": "ONNX",
+  "input": "float32 [1, 3, 224, 224], RGB, values 0..1",
+  "output": "float32 [1, 4], probabilities in the order of names"
+}
